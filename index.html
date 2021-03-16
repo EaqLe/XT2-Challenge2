@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ITSI Clock</title>
+		<script src="scripts/main.js" defer></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1"> <!-- hier worden alle CSS, JS, fonts en het favicon ingeladen. -->
+		<link type="text/css" href="styles/telefoon.css" rel="stylesheet" />
+		<link type="text/css" href="styles/tablet.css" rel="stylesheet" />
+		<link type="text/css" href="styles/laptop.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="https://use.typekit.net/awq8dww.css">
+	</head>
+	<body>
+		<div class="flex-logo">
+  	<figure>
+  		<img class="spacexlogo" src="images/spacexlogowhite.png">
+  	</figure>
+  </div>
+  <h1 class="heading">Interplanetary Transport System Interface</h1>
+<div class="flex-container">
+  <div class="flex-item-left">
+  	<h1 class="heading">Distance traveled</h1>
+  		<canvas id="myDistance"></canvas>
+  </div>
+  <div class="flex-item-middle">
+  	<h1 class="heading">Fuel consumption</h1>
+		<canvas id="myFuel"></canvas>
+  </div>
+  <div class="flex-item-right">
+  	<h1 class="heading">Registered Gforces</h1>
+  		<canvas id="myGforce"></canvas>
+  </div>
+</div>
+		<div class="container">
+			<h1 id="clock">
+				0:00
+			</h1>
+		</div>
+	</body>
+</html>

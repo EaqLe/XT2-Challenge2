@@ -1,0 +1,25 @@
+@media only screen and (min-width: 768px) {
+  
+.flex-container {
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+  flex-direction: row; /*hierdoor komen de blokken naast elkaar te staan in plaats van onder elkaar*/
+}
+
+.flex-item-left {
+  padding: 10px; /*hier heb ik geen breedte aangegeven, nu wordt de 100% uit telefoon.css meegenomen. hierdoor schrijf ik geen dubbele code*/
+}
+
+.flex-item-right, .flex-item-middle{
+  padding: 10px;
+  flex: 0 0 auto;
+  width: 50%; /*doordat deze beide blokken een breedte van 50% hebben komen ze naast elkaar te staan*/
+}
+ 
+ .heading {
+	text-align: center;
+	font-size: 21px; /*de fontsize schaalt mee aan de hand van de grote van het scherm*/
+}
+
+  }

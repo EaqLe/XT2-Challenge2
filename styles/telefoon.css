@@ -1,0 +1,43 @@
+/*Aangezien mijn ontwerp mobile first is heeft deze CSS geen media query, dit is de standaard weergave op mobiel.*/
+
+* {
+box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+.spacexlogo {
+	width: 50%;
+	margin: auto; /*hierdoor wordt het logo in het midden geplaatst*/
+	display: block; /*centreren via margin auto werkt alleen met een block element*/
+}
+
+.heading {
+	text-align: center;
+	font-size: 18px; /*de fontsize schaalt mee aan de hand van de grote van het scherm*/
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column; 
+  font-size: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.flex-item-left, .flex-item-right, .flex-item-middle {
+  padding: 10px;
+  flex: 0 0 auto;
+  width: 100%; /* alle blokken zijn op mobiel 100% breed, hierdoor komen ze onder elkaar te staan */
+  margin-top: 20px;
+}

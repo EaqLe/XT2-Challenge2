@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1024px) {
+  
+
+.flex-item-right, .flex-item-middle, .flex-item-left{
+  padding: 10px;
+  flex: 0 0 auto;
+  width: 50% /*hierdoor komen de blokken opnieuw naast elkaar te staan, ik heb 3 blokken maar de indeling is gemaakt voor 4 blokken. 
+  			 waardoor ik nu 1 "leeg" blok heb. Dit was een bewuste indeling keuze.*/
+}
+ 
+ .heading {
+	text-align: center;
+	font-size: 28px; /*de fontsize schaalt mee aan de hand van de grote van het scherm*/
+}
+
+  }

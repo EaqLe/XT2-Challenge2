@@ -27,6 +27,14 @@ h1, h2, h3 {
 	font-size: 18px; /*de fontsize schaalt mee aan de hand van de grote van het scherm*/
 }
 
+#seperator {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
 .flex-container {
   display: flex;
   flex-direction: column; 
@@ -35,7 +43,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-.flex-item-left, .flex-item-right, .flex-item-middle {
+.clock /*.flex-item-right, .flex-item-middle*/ {
   padding: 10px;
   flex: 0 0 auto;
   width: 100%; /* alle blokken zijn op mobiel 100% breed, hierdoor komen ze onder elkaar te staan */

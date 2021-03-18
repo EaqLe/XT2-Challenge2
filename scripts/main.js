@@ -20,6 +20,9 @@ function klok () {
 		seconds = '0' + seconds;
 	}
 
+	//Dit moet eigenlijk veranderen per dag deel kreeg het alleen niet voor elkaar om het om te bouwen naar uren :(
+	// nu verandert het per aantal seconde )
+
 	 if (seconds >= 20 && seconds <= 22){
         document.getElementById('cirkel').classList.remove('maan');
         document.getElementById('cirkel').classList.add('maanweg');

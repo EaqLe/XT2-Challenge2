@@ -66,7 +66,6 @@ h1, h2, h3 {
 	transition: linear;
 	transition-duration: 2s;
 	animation: slide-in-bottom 3s linear both;
-	animation: slide-out-top 3s linear both;
 }
 
 .zonweg {

@@ -50,7 +50,9 @@ h1, h2, h3 {
   margin-top: 20px;
 }
 
-
+.clock {
+	font-size: 40px;
+}
 
 
 #cirkel {

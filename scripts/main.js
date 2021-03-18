@@ -20,6 +20,19 @@ function klok () {
 		seconds = '0' + seconds;
 	}
 
+	if (seconds >= 20 && seconds <= 50){
+		document.getElementById('cirkel').classList.remove('maan')
+		document.getElementById('cirkel').classList.add('maanweg')
+		document.getElementById('cirkel').classList.remove('maanweg')
+		document.getElementById('cirkel').classList.add('zon')
+
+	} else {
+		document.getElementById('cirkel').classList.remove('zon')
+		document.getElementById('cirkel').classList.add('zonweg')
+		document.getElementById('cirkel').classList.remove('zonweg')
+		document.getElementById('cirkel').classList.add('maan')
+	}
+
 	document.getElementById('hours').innerHTML = hours;
 	document.getElementById('minutes').innerHTML = minutes;
 	document.getElementById('seconds').innerHTML = seconds;

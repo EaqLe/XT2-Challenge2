@@ -34,6 +34,49 @@ function klok () {
         document.getElementById('cirkel').classList.add('maan');
     }
 
+
+// Hieronder ziet u de poging om de code om te bouwen naar uren, helaas lukte dit niet :( )
+
+  // if (hours > 5 && hours < 7 ){
+	 // 	if (minutes >= 0 && minutes < 1 ) {
+	 // 	    if (seconds >= 0 && seconds < 1) {
+  //       document.getElementById('cirkel').classList.remove('maan');
+  //       document.getElementById('cirkel').classList.add('maanweg');
+	 // 	    }
+	 // 	}
+
+	 //  else if (hours > 5 && hours < 7 ){
+	 // 	if (minutes >= 0 && minutes < 1 ) {
+	 // 	    if (seconds > 2  && seconds < 4) {
+  //       document.getElementById('cirkel').classList.remove('maanweg');
+  //       document.getElementById('cirkel').classList.add('zon');
+	 // 	    }
+	 // 	}
+
+  //   } 
+
+
+  //    else if (hours > 17 && hours < 19 ){
+	 // 	if (minutes >= 0 && minutes < 1 ) {
+	 // 	    if (seconds >= 0  && seconds < 1) {
+  //       document.getElementById('cirkel').classList.remove('zon');
+  //       document.getElementById('cirkel').classList.add('zonweg');
+	 // 	    }
+	 // 	}
+
+  //   } 
+
+    
+  //    else if (hours > 17 && hours < 19 ){
+	 // 	if (minutes >= 0 && minutes < 1 ) {
+	 // 	    if (seconds >= 1  && seconds < 3) {
+  //       document.getElementById('cirkel').classList.remove('zonweg');
+  //       document.getElementById('cirkel').classList.add('maan');
+	 // 	    }
+	 // 	}
+
+  //   }
+
 	document.getElementById('hours').innerHTML = hours;
 	document.getElementById('minutes').innerHTML = minutes;
 	document.getElementById('seconds').innerHTML = seconds;
@@ -47,21 +90,4 @@ function klok () {
 klok();
 setInterval(klok, 1000);
 
-
-
-
-
-
-//document.getElementById('clock').innerHTML = today.getMonth(); // Januari is maand 0
-//document.getElementById('clock').innerHTML = today.getYear(); // Deprecated - niet gebruiken.
-//document.getElementById('clock').innerHTML = today.getFullYear();
-//document.getElementById('clock').innerHTML = today.getDay(); // Zondag is dag 0
-
-//document.getElementById('clock').innerHTML = today.getDate() + '/' + (today.getMonth()+1);
-
-;
-//document.getElementById('clock').innerHTML = today.getDate() + ' ' + maanden[today.getMonth()];
-
-
-//document.getElementById('clock').innerHTML = today.getTime();
 

@@ -24,7 +24,7 @@ h1, h2, h3 {
 
 .heading {
 	text-align: center;
-	font-size: 18px; /*de fontsize schaalt mee aan de hand van de grote van het scherm*/
+	font-size: 23px; /*de fontsize schaalt mee aan de hand van de grote van het scherm*/
 }
 
 #separator {
